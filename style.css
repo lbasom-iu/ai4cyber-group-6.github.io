@@ -20,36 +20,19 @@ nav {
     display: flex;
     justify-content: center;
     background: #444;
-    padding: 0;
-    margin: 0;
 }
 
 nav a {
-    display: block; /* Make each link fill the space of its box */
     color: white;
     padding: 15px 20px;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
-    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
-    border: 1px solid transparent; /* Add a border for a box-like appearance */
-    margin: 4px; /* Slight space between each box */
 }
 
 nav a:hover {
-    background-color: #555; /* Darker background on hover */
-    color: #fff; /* Keep text color white on hover */
-    border-color: #666; /* Slight border color change on hover */
+    background-color: #555;
 }
-
-/* Adjust the overall padding and margin of the nav and header */
-header, nav {
-    padding: 0;
-    margin: 0;
-}
-
-/* Rest of the CSS remains the same */
-
 
 /* Disclaimer Styling */
 .disclaimer {

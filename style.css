@@ -25,6 +25,7 @@ nav {
 }
 
 nav a {
+    text-decoration: none;
     display: block; /* Make each link fill the space of its box */
     color: white;
     padding: 15px 20px;

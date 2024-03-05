@@ -20,6 +20,7 @@ nav {
     display: flex;
     justify-content: center;
     background: #444;
+    float: left;
 }
 
 nav a {

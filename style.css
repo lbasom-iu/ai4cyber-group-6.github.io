@@ -89,3 +89,43 @@ ul {
   .active {
     background-color: #04AA6D;
   }
+  .carousel {
+    position: relative;
+  }
+
+  .carousel-images img {
+      display: none; /* Hide images initially */
+      margin: auto; /* Center images */
+  }
+
+  .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: lightgray;
+      border: none;
+      padding: 10px;
+  }
+
+  .prev {
+      left: 0;
+  }
+
+  .next {
+      right: 0;
+  }
+  .image-counter {
+    text-align: center;
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: -25px;
+    padding: 5px;
+    width: 50px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 8%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px;
+  }

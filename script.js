@@ -1,25 +1,26 @@
 let slideIndex = 0; // Start with the first image
 
 function changeSlide(moveStep) {
-    let slides = document.getElementsByClassName("carousel-images")[0].getElementsByTagName("img");
+    let slides = document.querySelectorAll(".carousel-images img");
     slideIndex += moveStep;
     
     if (slideIndex >= slides.length) {
-        slideIndex = 0; // Wrap back to the first image
+        slideIndex = 0;
     } else if (slideIndex < 0) {
-        slideIndex = slides.length - 1; // Wrap around to the last image
+        slideIndex = slides.length - 1;
     }
     
     // Hide all images
-    for (let i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";  
-    }
+    slides.forEach(slide => slide.style.display = "none");
     
     // Show the current image
     slides[slideIndex].style.display = "block";
+    
+    // Update the image counter
+    document.getElementById("imageCounter").innerText = `${slideIndex + 1}/${slides.length}`;
 }
 
 // Initialize the carousel to display the first image
-window.onload = function() {
+document.addEventListener('DOMContentLoaded', (event) => {
     changeSlide(0);
-};
+});

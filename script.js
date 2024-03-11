@@ -19,6 +19,14 @@ function changeSlide(moveStep) {
     // Update the image counter
     document.getElementById("imageCounter").innerText = `${slideIndex + 1}/${slides.length}`;
 }
+function toggleEnlarge(img) {
+    img.classList.toggle('enlarged');
+    if (img.classList.contains('enlarged')) {
+        document.body.style.overflow = 'hidden';
+    } else {
+        document.body.style.overflow = '';
+    }
+}
 
 // Initialize the carousel to display the first image
 document.addEventListener('DOMContentLoaded', (event) => {

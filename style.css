@@ -139,3 +139,9 @@ ul {
     max-height: 90vh; /* Adjust the height to the view height */
     box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Optional: adds a shadow for better visibility */
   }
+  .clickable-image {
+    width: 100%; 
+    max-width: 1200px; /* Set default max-width */
+    height: auto;
+    cursor: pointer; /* Suggests you can click the image */
+  }

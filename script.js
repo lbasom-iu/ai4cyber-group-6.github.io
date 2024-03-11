@@ -21,10 +21,13 @@ function changeSlide(moveStep) {
 }
 function toggleEnlarge(img) {
     img.classList.toggle('enlarged');
+    // To prevent scrolling when the image is enlarged and ensure the background is darkened
     if (img.classList.contains('enlarged')) {
         document.body.style.overflow = 'hidden';
+        document.body.style.background = 'rgba(0,0,0,0.5)'; // Add a dark background overlay
     } else {
         document.body.style.overflow = '';
+        document.body.style.background = '';
     }
 }
 

@@ -131,17 +131,17 @@ ul {
   }
   .enlarged {
     position: fixed;
-    z-index: 10;
+    z-index: 10000;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 90%; /* You can set a max-width if you want to restrict the size */
-    max-height: 90vh; /* Adjust the height to the view height */
-    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Optional: adds a shadow for better visibility */
-  }
+    transform: translate(-50%, -50%) scale(1.5); /* Scales up the image */
+    max-width: none; /* Removes max-width restriction when enlarged */
+    max-height: 90vh; /* Limits the height to the view height */
+}
   .clickable-image {
-    width: 100%; 
-    max-width: 1200px; /* Set default max-width */
+    width: 100%;
+    max-width: 1200px; 
     height: auto;
-    cursor: pointer; /* Suggests you can click the image */
+    cursor: pointer; 
+    transition: transform 0.3s ease; 
   }

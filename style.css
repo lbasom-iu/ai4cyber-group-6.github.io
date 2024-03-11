@@ -129,3 +129,13 @@ ul {
     transform: translateX(-50%);
     font-size: 16px;
   }
+  .enlarged {
+    position: fixed;
+    z-index: 10;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%; /* You can set a max-width if you want to restrict the size */
+    max-height: 90vh; /* Adjust the height to the view height */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Optional: adds a shadow for better visibility */
+  }

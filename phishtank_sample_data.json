@@ -1,0 +1,1002 @@
+[
+  {
+    "phish_id": 8511120,
+    "url": "https://my-business-108994-102321.square.site/",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511120",
+    "submission_time": "2024-03-30T20:54:09+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T21:03:23+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "74.115.51.4",
+        "cidr_block": "74.115.51.0/24",
+        "announcing_network": "27647",
+        "rir": "arin",
+        "country": "US",
+        "detail_time": "2024-03-30T21:04:53+00:00"
+      }
+    ],
+    "target": "Other"
+  },
+  {
+    "phish_id": 8511119,
+    "url": "https://att-104034.weeblysite.com/",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511119",
+    "submission_time": "2024-03-30T20:53:30+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T21:03:23+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "162.159.140.60",
+        "cidr_block": "162.159.128.0/19",
+        "announcing_network": "13335",
+        "rir": "arin",
+        "country": "US",
+        "detail_time": "2024-03-30T21:04:53+00:00"
+      }
+    ],
+    "target": "AT&amp;T"
+  },
+  {
+    "phish_id": 8511118,
+    "url": "https://att-106610.weeblysite.com/",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511118",
+    "submission_time": "2024-03-30T20:52:16+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T21:03:23+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "162.159.140.60",
+        "cidr_block": "162.159.128.0/19",
+        "announcing_network": "13335",
+        "rir": "arin",
+        "country": "US",
+        "detail_time": "2024-03-30T20:54:03+00:00"
+      }
+    ],
+    "target": "AT&amp;T"
+  },
+  {
+    "phish_id": 8511117,
+    "url": "https://docs.google.com/presentation/d/e/2PACX-1vT4BoC90ZSrkCPcAmBBUImj8YJyQWi1mJdCd-quoV-MKCzDBNQtL45jXgHhhA7CN9otxY_jJHdvrsJY/pub?start=false&amp;loop=false&amp;delayms=3000",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511117",
+    "submission_time": "2024-03-30T20:44:15+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T20:52:43+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "142.251.163.139",
+        "cidr_block": "142.251.163.0/24",
+        "announcing_network": "15169",
+        "rir": "arin",
+        "country": "US",
+        "detail_time": "2024-03-30T20:54:03+00:00"
+      }
+    ],
+    "target": "Other"
+  },
+  {
+    "phish_id": 8511116,
+    "url": "https://rewards-debtsbox.pages.dev/data/",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511116",
+    "submission_time": "2024-03-30T20:33:17+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T20:43:07+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "172.66.47.185",
+        "cidr_block": "172.66.40.0/21",
+        "announcing_network": "13335",
+        "rir": "arin",
+        "country": "US",
+        "detail_time": "2024-03-30T20:44:23+00:00"
+      }
+    ],
+    "target": "Other"
+  },
+  {
+    "phish_id": 8511114,
+    "url": "https://greenbltcoins.pages.dev/data/",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511114",
+    "submission_time": "2024-03-30T20:32:37+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T20:43:07+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "172.66.44.216",
+        "cidr_block": "172.66.40.0/21",
+        "announcing_network": "13335",
+        "rir": "arin",
+        "country": "US",
+        "detail_time": "2024-03-30T20:34:33+00:00"
+      }
+    ],
+    "target": "Other"
+  },
+  {
+    "phish_id": 8511113,
+    "url": "https://docs.google.com/presentation/d/e/2PACX-1vSJhDTzkoMb9kIcH1nSiGK8kRpniElvzy-9sTptbW72d_MSqqzbizdQc_Yr3hIFNE9WBAdyeK2dkUOM/pub?start=false&amp;loop=false&amp;delayms=3000",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511113",
+    "submission_time": "2024-03-30T20:16:51+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T20:23:07+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "172.253.122.100",
+        "cidr_block": "172.253.122.0/24",
+        "announcing_network": "15169",
+        "rir": "arin",
+        "country": "US",
+        "detail_time": "2024-03-30T20:24:16+00:00"
+      }
+    ],
+    "target": "Other"
+  },
+  {
+    "phish_id": 8511107,
+    "url": "https://allegro.141-98-10-125.cprapid.com/account/profilo/pl/",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511107",
+    "submission_time": "2024-03-30T19:41:34+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T19:52:50+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "141.98.10.125",
+        "cidr_block": "141.98.10.0/24",
+        "announcing_network": "209605",
+        "rir": "ripencc",
+        "country": "LT",
+        "detail_time": "2024-03-30T19:44:01+00:00"
+      }
+    ],
+    "target": "Allegro"
+  },
+  {
+    "phish_id": 8511106,
+    "url": "https://allegrolokalnie.oferta21.pl/oferta/l/IPhone-11-64Gb-fioletowy-626352464?id=b5ccca4b-8942-4bad-8072-c83212e5e79f",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511106",
+    "submission_time": "2024-03-30T19:41:02+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T19:52:50+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "104.21.83.28",
+        "cidr_block": "104.21.64.0/19",
+        "announcing_network": "13335",
+        "rir": "arin",
+        "country": "US",
+        "detail_time": "2024-03-30T19:44:01+00:00"
+      }
+    ],
+    "target": "Allegro"
+  },
+  {
+    "phish_id": 8511105,
+    "url": "https://server-9030.netlify.app/?3327948f-eae7-4098-b77b-6b9dd861c5f6",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511105",
+    "submission_time": "2024-03-30T19:40:06+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T19:52:50+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "18.213.222.111",
+        "cidr_block": "18.208.0.0/13",
+        "announcing_network": "14618",
+        "rir": "arin",
+        "country": "US",
+        "detail_time": "2024-03-30T19:44:01+00:00"
+      }
+    ],
+    "target": "AT&amp;T"
+  },
+  {
+    "phish_id": 8511104,
+    "url": "https://server-9030.netlify.app/",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511104",
+    "submission_time": "2024-03-30T19:39:14+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T19:52:50+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "18.213.222.111",
+        "cidr_block": "18.208.0.0/13",
+        "announcing_network": "14618",
+        "rir": "arin",
+        "country": "US",
+        "detail_time": "2024-03-30T19:44:01+00:00"
+      }
+    ],
+    "target": "AT&amp;T"
+  },
+  {
+    "phish_id": 8511103,
+    "url": "https://docs.google.com/presentation/d/e/2PACX-1vQP8Z_qskyg_keyYURhRu6O3GliDHeyRDeNNSyGxkO-XGPCkfdy_IrBzi9IsqqQXEU70mAKy1yH9Ew9/pub?start=false&amp;loop=false&amp;delayms=3000",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511103",
+    "submission_time": "2024-03-30T19:37:12+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T19:52:50+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "172.253.122.139",
+        "cidr_block": "172.253.122.0/24",
+        "announcing_network": "15169",
+        "rir": "arin",
+        "country": "US",
+        "detail_time": "2024-03-30T19:44:01+00:00"
+      }
+    ],
+    "target": "Other"
+  },
+  {
+    "phish_id": 8511102,
+    "url": "https://allegro.141-98-10-125.cprapid.com/account/profilo/pl/.projectklien/dcdd94d7166853bcc32a0817c9a153ff/login/",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511102",
+    "submission_time": "2024-03-30T19:37:06+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T19:52:50+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "141.98.10.125",
+        "cidr_block": "141.98.10.0/24",
+        "announcing_network": "209605",
+        "rir": "ripencc",
+        "country": "LT",
+        "detail_time": "2024-03-30T19:44:01+00:00"
+      }
+    ],
+    "target": "Allegro"
+  },
+  {
+    "phish_id": 8511098,
+    "url": "https://countryrestaurant.com.au/CHFINAL/CHFINALE/",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511098",
+    "submission_time": "2024-03-30T19:20:17+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T19:33:18+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "63.250.43.15",
+        "cidr_block": "63.250.32.0/20",
+        "announcing_network": "22612",
+        "rir": "arin",
+        "country": "US",
+        "detail_time": "2024-03-30T19:24:28+00:00"
+      }
+    ],
+    "target": "Other"
+  },
+  {
+    "phish_id": 8511096,
+    "url": "https://getcontentbuddy.co/ONE/Viseca/ANO11/dossier/page-1.html",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511096",
+    "submission_time": "2024-03-30T19:20:03+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T19:33:18+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "24.199.104.156",
+        "cidr_block": "24.199.96.0/20",
+        "announcing_network": "14061",
+        "rir": "arin",
+        "country": "US",
+        "detail_time": "2024-03-30T19:24:28+00:00"
+      }
+    ],
+    "target": "Other"
+  },
+  {
+    "phish_id": 8511089,
+    "url": "https://gateway.lighthouse.storage/ipfs/QmSpUCVPJsCTnk2yKS45McUyrJvGAPHMBwA7Aav5QAtnud",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511089",
+    "submission_time": "2024-03-30T19:04:16+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T19:13:06+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "13.32.208.50",
+        "cidr_block": "13.32.208.0/23",
+        "announcing_network": "16509",
+        "rir": "arin",
+        "country": "US",
+        "detail_time": "2024-03-30T19:14:52+00:00"
+      }
+    ],
+    "target": "Other"
+  },
+  {
+    "phish_id": 8511080,
+    "url": "https://ipfs.io/ipfs/QmRyxMMAruXArkWrEcXMtGJ1LimKn1GmzomKXeJvK1b8UC/webby22.html",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511080",
+    "submission_time": "2024-03-30T19:03:29+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T19:13:06+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "209.94.90.1",
+        "cidr_block": "209.94.90.0/24",
+        "announcing_network": "40680",
+        "rir": "arin",
+        "country": "US",
+        "detail_time": "2024-03-30T19:14:51+00:00"
+      }
+    ],
+    "target": "Other"
+  },
+  {
+    "phish_id": 8511062,
+    "url": "https://ipfs.io/ipfs/QmWikvJg8nefnh79V3fr8nZqYTE2jSriAfHz5FNsM4fxxn/index.html",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511062",
+    "submission_time": "2024-03-30T19:01:37+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T19:03:51+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "209.94.90.1",
+        "cidr_block": "209.94.90.0/24",
+        "announcing_network": "40680",
+        "rir": "arin",
+        "country": "US",
+        "detail_time": "2024-03-30T19:05:04+00:00"
+      }
+    ],
+    "target": "Other"
+  },
+  {
+    "phish_id": 8511058,
+    "url": "https://ipfs.io/ipfs/QmU7ZKVQFcCHCfG6TtzTG3UpLQSshWnsDZcM2odPsu2aq1",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511058",
+    "submission_time": "2024-03-30T19:01:08+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T19:03:51+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "209.94.90.1",
+        "cidr_block": "209.94.90.0/24",
+        "announcing_network": "40680",
+        "rir": "arin",
+        "country": "US",
+        "detail_time": "2024-03-30T19:05:04+00:00"
+      }
+    ],
+    "target": "Other"
+  },
+  {
+    "phish_id": 8511059,
+    "url": "https://ipfs.io/ipfs/QmU7ZKVQFcCHCfG6TtzTG3UpLQSshWnsDZcM2odPsu2aq1/",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511059",
+    "submission_time": "2024-03-30T19:01:08+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T19:03:51+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "209.94.90.1",
+        "cidr_block": "209.94.90.0/24",
+        "announcing_network": "40680",
+        "rir": "arin",
+        "country": "US",
+        "detail_time": "2024-03-30T19:05:04+00:00"
+      }
+    ],
+    "target": "Other"
+  },
+  {
+    "phish_id": 8511050,
+    "url": "https://uqr.to/1q95u?https://santander.com.br",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511050",
+    "submission_time": "2024-03-30T18:48:49+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T18:52:56+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "104.21.89.167",
+        "cidr_block": "104.21.64.0/19",
+        "announcing_network": "13335",
+        "rir": "arin",
+        "country": "US",
+        "detail_time": "2024-03-30T18:54:40+00:00"
+      }
+    ],
+    "target": "Banco Santander, S.A."
+  },
+  {
+    "phish_id": 8511049,
+    "url": "https://beta-n.ro/march.estmt/mbaccsecn/rncp/ntbmynb.php",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511049",
+    "submission_time": "2024-03-30T18:48:41+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T18:52:56+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "89.42.218.74",
+        "cidr_block": "89.42.218.0/24",
+        "announcing_network": "205275",
+        "rir": "ripencc",
+        "country": "RO",
+        "detail_time": "2024-03-30T18:54:40+00:00"
+      }
+    ],
+    "target": "Other"
+  },
+  {
+    "phish_id": 8511048,
+    "url": "http://108.165.179.70/mi/index.php?https://santander.com.br",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511048",
+    "submission_time": "2024-03-30T18:48:40+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T18:52:56+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "108.165.179.70",
+        "cidr_block": "108.165.179.0/24",
+        "announcing_network": "210356",
+        "rir": "arin",
+        "country": "US",
+        "detail_time": "2024-03-30T18:54:40+00:00"
+      }
+    ],
+    "target": "Banco Santander, S.A."
+  },
+  {
+    "phish_id": 8511047,
+    "url": "https://dev-fancydizzyroutes.pantheonsite.io/",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511047",
+    "submission_time": "2024-03-30T18:46:14+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T18:52:56+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "23.185.0.253",
+        "cidr_block": "23.185.0.0/24",
+        "announcing_network": "54113",
+        "rir": "arin",
+        "country": "US",
+        "detail_time": "2024-03-30T18:54:40+00:00"
+      }
+    ],
+    "target": "Other"
+  },
+  {
+    "phish_id": 8511043,
+    "url": "https://allegrolokalniie.09741571.xyz/captcha",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511043",
+    "submission_time": "2024-03-30T18:40:13+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T18:52:56+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "172.67.137.93",
+        "cidr_block": "172.67.128.0/20",
+        "announcing_network": "13335",
+        "rir": "arin",
+        "country": "US",
+        "detail_time": "2024-03-30T18:54:40+00:00"
+      }
+    ],
+    "target": "Other"
+  },
+  {
+    "phish_id": 8511041,
+    "url": "http://sprzedaz-lokalnie.com/M3MSXL",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511041",
+    "submission_time": "2024-03-30T18:40:11+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T18:52:56+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "52.2.56.64",
+        "cidr_block": "52.2.0.0/15",
+        "announcing_network": "14618",
+        "rir": "arin",
+        "country": "US",
+        "detail_time": "2024-03-30T18:54:40+00:00"
+      }
+    ],
+    "target": "Other"
+  },
+  {
+    "phish_id": 8511042,
+    "url": "http://sprzedaz-lokalnie.com/Nc8JW1",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511042",
+    "submission_time": "2024-03-30T18:40:11+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T18:52:56+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "52.2.56.64",
+        "cidr_block": "52.2.0.0/15",
+        "announcing_network": "14618",
+        "rir": "arin",
+        "country": "US",
+        "detail_time": "2024-03-30T18:54:40+00:00"
+      }
+    ],
+    "target": "Other"
+  },
+  {
+    "phish_id": 8511040,
+    "url": "https://att-contact-update.weeblysite.com/",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511040",
+    "submission_time": "2024-03-30T18:37:08+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T18:42:19+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "172.66.0.60",
+        "cidr_block": "172.66.0.0/22",
+        "announcing_network": "13335",
+        "rir": "arin",
+        "country": "US",
+        "detail_time": "2024-03-30T18:54:40+00:00"
+      }
+    ],
+    "target": "Other"
+  },
+  {
+    "phish_id": 8511037,
+    "url": "https://g7ly5t-8080.csb.app/",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511037",
+    "submission_time": "2024-03-30T18:30:21+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T18:32:05+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "104.18.39.169",
+        "cidr_block": "104.18.32.0/20",
+        "announcing_network": "13335",
+        "rir": "arin",
+        "country": "US",
+        "detail_time": "2024-03-30T18:34:21+00:00"
+      }
+    ],
+    "target": "Other"
+  },
+  {
+    "phish_id": 8511036,
+    "url": "https://uspw.usspadu.top/pg?do=index",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511036",
+    "submission_time": "2024-03-30T18:17:30+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T18:23:09+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "104.21.66.152",
+        "cidr_block": "104.21.64.0/19",
+        "announcing_network": "13335",
+        "rir": "arin",
+        "country": "US",
+        "detail_time": "2024-03-30T18:25:00+00:00"
+      }
+    ],
+    "target": "Other"
+  },
+  {
+    "phish_id": 8511035,
+    "url": "https://uspw.usspadu.top/",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511035",
+    "submission_time": "2024-03-30T18:17:10+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T18:23:09+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "104.21.66.152",
+        "cidr_block": "104.21.64.0/20",
+        "announcing_network": "13335",
+        "rir": "arin",
+        "country": "US",
+        "detail_time": "2024-03-30T18:24:59+00:00"
+      }
+    ],
+    "target": "Other"
+  },
+  {
+    "phish_id": 8511034,
+    "url": "https://tvmqzitu.square.site/",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511034",
+    "submission_time": "2024-03-30T18:16:39+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T18:23:09+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "74.115.51.5",
+        "cidr_block": "74.115.51.0/24",
+        "announcing_network": "27647",
+        "rir": "arin",
+        "country": "US",
+        "detail_time": "2024-03-30T18:24:59+00:00"
+      }
+    ],
+    "target": "Other"
+  },
+  {
+    "phish_id": 8511031,
+    "url": "https://toledosolucoesfinanceiras.com.br/.well-known/pki-validation/-/index.html",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511031",
+    "submission_time": "2024-03-30T18:13:59+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T18:23:10+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "162.215.213.121",
+        "cidr_block": "162.214.0.0/15",
+        "announcing_network": "46606",
+        "rir": "arin",
+        "country": "US",
+        "detail_time": "2024-03-30T18:24:59+00:00"
+      }
+    ],
+    "target": "Coinbase"
+  },
+  {
+    "phish_id": 8511030,
+    "url": "http://cbxupkftqm.duckdns.org",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511030",
+    "submission_time": "2024-03-30T18:13:32+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T18:23:10+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "103.80.134.63",
+        "cidr_block": "103.80.134.0/24",
+        "announcing_network": "3786",
+        "rir": "apnic",
+        "country": "HK",
+        "detail_time": "2024-03-30T18:24:59+00:00"
+      }
+    ],
+    "target": "Apple"
+  },
+  {
+    "phish_id": 8511029,
+    "url": "https://pub-70ca94bb285246afbdf39d0b31daedcc.r2.dev/banga.html",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511029",
+    "submission_time": "2024-03-30T18:12:52+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T18:23:10+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "104.18.3.35",
+        "cidr_block": "104.18.0.0/20",
+        "announcing_network": "13335",
+        "rir": "arin",
+        "country": "US",
+        "detail_time": "2024-03-30T18:14:49+00:00"
+      }
+    ],
+    "target": "Other"
+  },
+  {
+    "phish_id": 8511028,
+    "url": "https://pub-5ca515786c4c4bbda12439950dc860eb.r2.dev/index.html",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511028",
+    "submission_time": "2024-03-30T18:11:52+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T18:23:10+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "104.18.2.35",
+        "cidr_block": "104.18.0.0/20",
+        "announcing_network": "13335",
+        "rir": "arin",
+        "country": "US",
+        "detail_time": "2024-03-30T18:14:49+00:00"
+      }
+    ],
+    "target": "American Express"
+  },
+  {
+    "phish_id": 8511024,
+    "url": "https://att-105627.weeblysite.com/",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511024",
+    "submission_time": "2024-03-30T18:03:41+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T18:04:27+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "172.66.0.60",
+        "cidr_block": "172.66.0.0/22",
+        "announcing_network": "13335",
+        "rir": "arin",
+        "country": "US",
+        "detail_time": "2024-03-30T18:14:49+00:00"
+      }
+    ],
+    "target": "Other"
+  },
+  {
+    "phish_id": 8511023,
+    "url": "https://yjdnpls.mkpops.workers.dev/",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511023",
+    "submission_time": "2024-03-30T18:02:25+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T18:04:27+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "104.21.34.92",
+        "cidr_block": "104.21.32.0/20",
+        "announcing_network": "13335",
+        "rir": "arin",
+        "country": "US",
+        "detail_time": "2024-03-30T18:14:49+00:00"
+      }
+    ],
+    "target": "Yahoo"
+  },
+  {
+    "phish_id": 8511022,
+    "url": "https://uspw.usspasd.top/pg?do=index",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511022",
+    "submission_time": "2024-03-30T17:59:39+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T18:04:27+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "104.21.19.122",
+        "cidr_block": "104.21.16.0/20",
+        "announcing_network": "13335",
+        "rir": "arin",
+        "country": "US",
+        "detail_time": "2024-03-30T18:14:49+00:00"
+      }
+    ],
+    "target": "Other"
+  },
+  {
+    "phish_id": 8511021,
+    "url": "https://uspw.usspasd.top/",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511021",
+    "submission_time": "2024-03-30T17:59:14+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T18:04:27+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "104.21.19.122",
+        "cidr_block": "104.21.16.0/20",
+        "announcing_network": "13335",
+        "rir": "arin",
+        "country": "US",
+        "detail_time": "2024-03-30T18:14:49+00:00"
+      }
+    ],
+    "target": "Other"
+  },
+  {
+    "phish_id": 8511020,
+    "url": "https://pub-879871612ca142959804d328fad0a538.r2.dev/dse_sign.html",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511020",
+    "submission_time": "2024-03-30T17:57:34+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T18:04:27+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "104.18.2.35",
+        "cidr_block": "104.18.0.0/20",
+        "announcing_network": "13335",
+        "rir": "arin",
+        "country": "US",
+        "detail_time": "2024-03-30T18:14:49+00:00"
+      }
+    ],
+    "target": "DocuSign"
+  },
+  {
+    "phish_id": 8511017,
+    "url": "https://poweramr.in/system/libraries/americanexpress.com-login/A.html",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511017",
+    "submission_time": "2024-03-30T17:52:02+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T18:04:27+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "103.133.215.62",
+        "cidr_block": "103.133.215.0/24",
+        "announcing_network": "133643",
+        "rir": "apnic",
+        "country": "IN",
+        "detail_time": "2024-03-30T18:14:49+00:00"
+      }
+    ],
+    "target": "American Express"
+  },
+  {
+    "phish_id": 8511015,
+    "url": "https://poweramr.in/system/core/wx.htm",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511015",
+    "submission_time": "2024-03-30T17:49:50+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T17:53:03+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "103.133.215.62",
+        "cidr_block": "103.133.215.0/24",
+        "announcing_network": "133643",
+        "rir": "apnic",
+        "country": "IN",
+        "detail_time": "2024-03-30T17:54:15+00:00"
+      }
+    ],
+    "target": "American Express"
+  },
+  {
+    "phish_id": 8511012,
+    "url": "http://bdfgry.vttre.xyz/",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511012",
+    "submission_time": "2024-03-30T17:40:06+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T17:53:03+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "91.204.226.62",
+        "cidr_block": "91.204.226.0/24",
+        "announcing_network": "205960",
+        "rir": "ripencc",
+        "country": "HK",
+        "detail_time": "2024-03-30T17:54:14+00:00"
+      }
+    ],
+    "target": "Apple"
+  },
+  {
+    "phish_id": 8511011,
+    "url": "http://adfgcd.vttre.xyz/",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511011",
+    "submission_time": "2024-03-30T17:39:54+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T17:53:03+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "91.204.226.62",
+        "cidr_block": "91.204.226.0/24",
+        "announcing_network": "205960",
+        "rir": "ripencc",
+        "country": "HK",
+        "detail_time": "2024-03-30T17:54:14+00:00"
+      }
+    ],
+    "target": "Apple"
+  },
+  {
+    "phish_id": 8511010,
+    "url": "http://sfgjty.vttre.xyz/",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511010",
+    "submission_time": "2024-03-30T17:39:35+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T17:53:03+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "91.204.226.62",
+        "cidr_block": "91.204.226.0/24",
+        "announcing_network": "205960",
+        "rir": "ripencc",
+        "country": "HK",
+        "detail_time": "2024-03-30T17:54:14+00:00"
+      }
+    ],
+    "target": "Apple"
+  },
+  {
+    "phish_id": 8511009,
+    "url": "http://bferyu.vttre.xyz/",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511009",
+    "submission_time": "2024-03-30T17:39:16+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T17:53:03+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "91.204.226.62",
+        "cidr_block": "91.204.226.0/24",
+        "announcing_network": "205960",
+        "rir": "ripencc",
+        "country": "HK",
+        "detail_time": "2024-03-30T17:44:33+00:00"
+      }
+    ],
+    "target": "Apple"
+  },
+  {
+    "phish_id": 8511008,
+    "url": "http://xcbdet.urwhr.xyz/",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511008",
+    "submission_time": "2024-03-30T17:39:00+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T17:53:03+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "91.204.226.62",
+        "cidr_block": "91.204.226.0/24",
+        "announcing_network": "205960",
+        "rir": "ripencc",
+        "country": "HK",
+        "detail_time": "2024-03-30T17:44:33+00:00"
+      }
+    ],
+    "target": "Apple"
+  },
+  {
+    "phish_id": 8511006,
+    "url": "http://dzfrer.urwhr.xyz/",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511006",
+    "submission_time": "2024-03-30T17:38:04+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T17:53:03+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "91.204.226.62",
+        "cidr_block": "91.204.226.0/24",
+        "announcing_network": "205960",
+        "rir": "ripencc",
+        "country": "HK",
+        "detail_time": "2024-03-30T17:44:33+00:00"
+      }
+    ],
+    "target": "Apple"
+  },
+  {
+    "phish_id": 8511005,
+    "url": "http://dfgxwe.upyye.xyz/",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=8511005",
+    "submission_time": "2024-03-30T17:37:46+00:00",
+    "verified": "yes",
+    "verification_time": "2024-03-30T17:53:03+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "91.204.226.62",
+        "cidr_block": "91.204.226.0/24",
+        "announcing_network": "205960",
+        "rir": "ripencc",
+        "country": "HK",
+        "detail_time": "2024-03-30T17:44:33+00:00"
+      }
+    ],
+    "target": "Apple"
+  }
+]

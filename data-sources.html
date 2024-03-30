@@ -39,13 +39,41 @@
         </section>
 
         <h3>PhishTank</h3>
-        <table>
-            <tr>
-                <th>URL</th>
-                <th>Active</th>
-                <th>?</th>
-            </tr>
-        </table>
+
+        <div id="phishtank-sample-table"></div>
+
+        <script>
+            // Function to load JSON data and create a table
+            function loadAndDisplayJSON() {
+                fetch('phishtank_sample_data.json')
+                    .then(response => response.json())
+                    .then(data => {
+                        createTable(data);
+                    })
+                    .catch(error => console.error('Error:', error));
+            }
+
+            // Function to create a table from JSON data
+            function createTable(data) {
+                const container = document.getElementById('table-container');
+                const table = document.createElement('table');
+
+                data.forEach(item => {
+                    const row = document.createElement('tr');
+                    Object.values(item).forEach(value => {
+                        const cell = document.createElement('td');
+                        cell.textContent = value;
+                        row.appendChild(cell);
+                    });
+                    table.appendChild(row);
+                });
+                
+                container.appendChild(table);
+            }
+
+            // Call the function on window load
+            window.onload = loadAndDisplayJSON;
+        </script>
 
         <footer>
             <p>Disclaimer: All content on this site is for educational purposes only.</p>

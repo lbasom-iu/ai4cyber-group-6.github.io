@@ -145,3 +145,36 @@ ul {
     cursor: pointer; 
     transition: transform 0.3s ease; 
   }
+
+/* Add styles for html table that can scroll horizontally and vertically, and styles for the header row, column and cell to look better with the theme */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th {
+    background-color: #333;
+    color: white;
+    top: 0;
+    position: sticky;
+}
+
+td {
+    border-bottom: 1px solid #ddd;
+}
+
+td:hover {
+    background-color: #f5f5f5;
+}
+

@@ -83,22 +83,47 @@
             }
 
             function parseCSV(csv) {
-                const lines = csv.split('\n').filter(line => line.trim()); // Filters out empty lines
+                const rows = csv.split('\n').filter(line => line.trim());
                 const result = [];
-                const headers = lines[0].split(',').map(header => header.trim());
+                
+                // Splitting each row into fields considering commas inside double quotes
+                rows.forEach((row, index) => {
+                    const fields = [];
+                    let field = '';
+                    let insideQuotes = false;
 
-                for (let i = 1; i < lines.length; i++) {
-                    const obj = {};
-                    // Splitting based on the assumption that there are no commas in the fields
-                    const currentline = lines[i].split(',').map(field => field.trim());
-
-                    for (let j = 0; j < headers.length; j++) {
-                        obj[headers[j]] = currentline[j];
+                    for (let char of row) {
+                        if (char === '"' && field === '') {
+                            insideQuotes = !insideQuotes;
+                        } else if (char === '"' && insideQuotes) {
+                            insideQuotes = false;
+                        } else if (char === ',' && !insideQuotes) {
+                            fields.push(field);
+                            field = '';
+                        } else {
+                            field += char;
+                        }
                     }
-                    result.push(obj);
-                }
-                return result; // Returns array of objects
+
+                    // Add the last field
+                    fields.push(field);
+
+                    // For the header row, create headers array
+                    if (index === 0) {
+                        result.headers = fields.map(header => header.trim());
+                    } else {
+                        // For other rows, create objects with keys as headers
+                        let obj = {};
+                        fields.forEach((f, i) => {
+                            obj[result.headers[i]] = f.trim();
+                        });
+                        result.push(obj);
+                    }
+                });
+
+                return result;
             }
+
 
             // Function to create a table from JSON data
             function createTable(data, containerId) {

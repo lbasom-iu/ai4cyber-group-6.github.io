@@ -45,32 +45,77 @@
             <div id="phishtank-sample-table" style="overflow-x: auto; overflow-y: auto; width: 90%; height: 300px; border: 3px solid #333; border-radius: 5px; margin-left: auto; margin-right: auto;"></div>
         </section>
 
+        <section>
+            <h3>NIST NVD</h3>
+
+            <p><b>Background</b></p>
+            <p>ADD BACKGROUND HERE~</p>
+
+            <p><b>Justification</b></p>
+            <p>ADD JUSTIFICATION HERE</p>
+
+            <p><b>Collection</b></p>
+            <p>ADD COLLECTION INFO HERE</p>
+            
+            <p><b>Data Sample</b></p>
+            <div id="nvd-sample-table" style="overflow-x: auto; overflow-y: auto; width: 90%; height: 300px; border: 3px solid #333; border-radius: 5px; margin-left: auto; margin-right: auto;"></div>
+        </section>
+
         <script>
             // Function to load JSON data and create a table
             function loadAndDisplayJSON() {
                 fetch('phishtank_sample_data.json')
                     .then(response => response.json())
                     .then(data => {
-                        createTable(data);
+                        createTable(data, 'phishtank-sample-table');
                     })
                     .catch(error => console.error('Error:', error));
             }
 
+            function loadAndDisplayCSV() {
+                fetch('cves_with_cvss_scores_detailed_no_duplicates.csv')
+                    .then(response => response.text())
+                    .then(csv => {
+                        const data = parseCSV(csv);
+                        createTable(data, 'nvd-sample-table');
+                    })
+                    .catch(error => console.error('Error:', error));
+            }
+
+            function parseCSV(csv) {
+                const lines = csv.split('\n').filter(line => line.trim()); // Filters out empty lines
+                const result = [];
+                const headers = lines[0].split(',').map(header => header.trim());
+
+                for (let i = 1; i < lines.length; i++) {
+                    const obj = {};
+                    // Splitting based on the assumption that there are no commas in the fields
+                    const currentline = lines[i].split(',').map(field => field.trim());
+
+                    for (let j = 0; j < headers.length; j++) {
+                        obj[headers[j]] = currentline[j];
+                    }
+                    result.push(obj);
+                }
+                return result; // Returns array of objects
+            }
+
             // Function to create a table from JSON data
-            function createTable(data) {
-                const container = document.getElementById('phishtank-sample-table');
+            function createTable(data, containerId) {
+                const container = document.getElementById(containerId); // Fixed this line
                 const table = document.createElement('table');
 
                 // Add table headers
                 const headers = Object.keys(data[0]);
-                const row = document.createElement('tr');
+                const headerRow = document.createElement('tr');
                 headers.forEach(header => {
                     const th = document.createElement('th');
                     th.textContent = header;
-                    row.appendChild(th);
+                    headerRow.appendChild(th);
                 });
-                table.appendChild(row);
+                table.appendChild(headerRow);
 
+                // Add table rows
                 data.forEach(item => {
                     const row = document.createElement('tr');
                     Object.values(item).forEach(value => {
@@ -80,12 +125,14 @@
                     });
                     table.appendChild(row);
                 });
-                
+
                 container.appendChild(table);
             }
 
+
             // Call the function on window load
-            window.onload = loadAndDisplayJSON;
+            window.onload = loadAndDisplayJSON();
+            window.onload = loadAndDisplayCSV();
         </script>
     </body>
     <footer>

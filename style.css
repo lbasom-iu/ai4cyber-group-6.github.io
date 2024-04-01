@@ -186,3 +186,18 @@ td:hover {
 p {
   margin: 20px;
 }
+
+.x3-grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+  margin: 20px;
+}
+
+.grid-content {
+  background-color: #04AA6D;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}

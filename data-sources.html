@@ -38,12 +38,38 @@
             <p>PhishTank helps protect against known and emerging phishing threats, before they can further harm the internet at large.
                 Phishtank is a community-based verification system that provides a database of verified phishing sites to protect users against future harm.</p>
 
-            <p><b>Justification</b></p>
-            <p>ADD JUSTIFICATION HERE</p>
+            <p><b>Who generates the data?</b></p>
+            <p>PhishTank is operated by Cisco Talos Intelligence Group (Talos). This is one of the largest threat intelligence teams in the world, consisting of analysts, researches and engineers.
+                Anyone can submit, verify, track and share phishing data.</p>
 
-            <p><b>Collection</b></p>
-            <p>ADD COLLECTION INFO HERE</p>
+            <p><b>How much data is there?</b></p>
+            <p>PhishTank is a collaborative clearing house for data and information about phishing on the Internet. The exact size of the data is not publicly disclosed, 
+                but it's known to be substantial, with new phishing sites being added regularly. The data is available in a variety of formats (XML, CSV, Serialized PHP, JSON) and is updated hourly.</p>
             
+            <p><b>Why did you select this data source?</b></p>
+            <p>NVD helps fill the capabilities and infrastructure components of this model by providing detailed information on vulnerabilities (capabilities) and affected systems (infrastructure). 
+                NVD is designed to work seamlessly with different security tools and platforms, providing an automated way to track and manage vulnerabilities.</p>
+    
+            <p><b>What are other organizations within your industry that use these data sources? How and why do they use them?</b></p>
+            <p>While specific examples of hospitals using PhishTank data are not readily available, it's clear that the healthcare industry is increasingly leveraging big data for various purposes. 
+                PhishTank data could potentially be used by healthcare organizations to enhance their cybersecurity measures. For instance, they could use the data to identify and block access to known phishing sites, thereby protecting their networks and sensitive patient data from potential threats.</p>
+
+            <p><b>How was the data collected?</b></p>
+            <p>The data was collected by downloading PhishTank database directly, which is updated hourly. In the future, we plan to automate retrieving their downloadable database either daily or at higher frequencies.</p>
+
+            <p><b>What approaches were used to collect it?</b></p>
+            <p>We converted the JSON data into table-level data through their downloadable database, which displays a list of sample phishing URLs along with their metadata. Moving forward, we intend to create custom scripts to cross-check whether a URL targeting our industry is listed as a phishing attempt in PhishTank database.</p>
+
+            <p><b>Why were these approaches taken?</b></p>
+            <p>Due to their new API registration being temporarily disabled, we have chosen this route due to the immediate availability of comprehensive phishing URL data.</p>
+
+            <p><b>Do others follow a similar approach? If so, please provide references.</b></p>
+            <p>According to their developer page, users interested in querying phishing links with a built-in solution may find the downloadable database useful for research and cybersecurity purposes.<br /><br />
+                PhishTank: <a href="https://phishtank.org/developer_info.php">https://phishtank.org/developer_info.php</a></p>
+
+            <p><b>What is the data volume and date coverage?</b></p>
+            <p>Since the early 2000s, PhishTank has been collecting data on phishing URLs, comprising tens of thousands of confirmed phishing URLs. Our sample data set displayed 50 rows of data.</p>
+
             <h4>Data Sample</h4>
             <div id="phishtank-sample-table" style="overflow-x: auto; overflow-y: auto; width: 90%; height: 300px; border: 3px solid #333; border-radius: 5px; margin-left: auto; margin-right: auto;"></div>
         </section>

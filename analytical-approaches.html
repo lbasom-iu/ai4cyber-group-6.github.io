@@ -22,57 +22,58 @@
         </ul>
 
         <section>
-            <h2>Threat Modeling</h2>
+            <h2>Analytical Approaches</h2>
             <p>
-                This section delves into the process of identifying and addressing potential cybersecurity threats facing hospitals. Understanding and modeling these threats are crucial for developing robust defense mechanisms.
+                This page outlines the analytical approaches that were used on our datasets, PhishTank and NIST NVD.
             </p>
         </section>
 
-        <section id="Critical-Asset-Identification">
-            <h3>Critical Asset Identification</h3>
-            <p>Identifying critical assets is the first step in threat modeling. It involves recognizing which systems, data, and resources are vital to hospital operations and patient care.</p>
-            <img src="Images\Milestone 1 - Value of Critical Assets.png" alt="Critical Asset Identification" style="width:100%; max-width:800px; height:auto;">
-            <img src="Images\Milestone 1 - Value of Critical Assets.png" alt="Critical Asset Identification" style="width:100%; max-width:800px; height:auto;">
-            <img src="Images\Milestone 1 - Ramificaiton of Breached Assets.png" alt="Critical Asset Identification" style="width:100%; max-width:800px; height:auto;">
+        <section>
+            <h3>PhishTank</h3>
+            <div class="x3-grid-container">
+                <div class="grid-content">
+                    <p><b>Text Mining</b></p>
+                    <p>Using URLs from the PhishTank data set, we researched the most common keywords associated to the healthcare and hospital industry. We filtered our PhishTank data for the top 100 keywords associated to our industry, looking for any phishing URLs that contained one or more of those keywords.</p>
+                </div>
+                <div class="grid-content">
+                    <p><b>Event Correlation</b></p>
+                    <p>We first filtered the PhishTank data for 100 keywords associated to healthcare/hospitals (refer to text mining slide for further evaluation of selected keywords).</p>
+                    <p>Next, we took this population of phishing attacks and utilized the geographical information from the GeoIP data source to determine where these attacks occurred.</p>
+                    <p>Our analysis was further broken down into specific areas that were targeted the most to gather the most relevant and useful information.</p>
+                </div>
+                <div class="grid-content">
+                    <p><b>Machine Learning</b></p>
+                    <p>We first took the Phishtank dataset and joined it with a group of generated “safe” URLs.</p>
+                    <p>We added a binary “phish” label to the table (0/1), and derived new numerical fields from the URLs, such as length, number of digits/special characters, top level domain, number of subdomains, and entropy of the url.</p>
+                    <p>Finally, we used these new fields, with “phish” as the target, to create a decision tree classifier model for predicting whether a URL is phishing-related or not.</p>
+                </div>
+            </div>
         </section>
 
-            <!-- Diamond Models Section with Carousel -->
-    <section id="Diamond-Models">
-        <h3>Diamond Models</h3>
-        <p>Using the Diamond Model of Intrusion Analysis, we can dissect and understand the anatomy of cyberattacks targeting hospitals. This section provides an overview of several key diamond models.</p>
-        
-        <div class="carousel" id="diamondModelCarousel">
-            <div class="carousel-images">
-            <img src="Images\Milestone 1 - Diamond Model 1.png" alt="Diamond Models" style="width:100%; max-width:1000px; height:auto;">
-            <img src="Images\Milestone 1 - Diamond Model 2.png" alt="Diamond Models" style="width:100%; max-width:1000px; height:auto;">
-            <img src="Images\Milestone 1 - Diamond Model 3.png" alt="Diamond Models" style="width:100%; max-width:1000px; height:auto;">
-            <img src="Images\Milestone 1 - Diamond Model 4.png" alt="Diamond Models" style="width:100%; max-width:1000px; height:auto;">
-            <img src="Images\Milestone 1 - Diamond Model 5.png" alt="Diamond Models" style="width:100%; max-width:1000px; height:auto;">
-            <img src="Images\Milestone 1 - Diamond Model 6.png" alt="Diamond Models" style="width:100%; max-width:1000px; height:auto;">
-            <img src="Images\Milestone 1 - Diamond Model 7.png" alt="Diamond Models" style="width:100%; max-width:1000px; height:auto;">
-            <img src="Images\Milestone 1 - Diamond Model 8.png" alt="Diamond Models" style="width:100%; max-width:1000px; height:auto;">
-            <img src="Images\Milestone 1 - Diamond Model 9.png" alt="Diamond Models" style="width:100%; max-width:1000px; height:auto;">
-            <img src="Images\Milestone 1 - Diamond Model 10.png" alt="Diamond Models" style="width:100%; max-width:1000px; height:auto;">
-            <img src="Images\Milestone 1 - Diamond Model 11.png" alt="Diamond Models" style="width:100%; max-width:1000px; height:auto;">
-            <img src="Images\Milestone 1 - Diamond Model 12.png" alt="Diamond Models" style="width:100%; max-width:1000px; height:auto;">
-            <img src="Images\Milestone 1 - Diamond Model 13.png" alt="Diamond Models" style="width:100%; max-width:1000px; height:auto;">
-            <img src="Images\Milestone 1 - Diamond Model 14.png" alt="Diamond Models" style="width:100%; max-width:1000px; height:auto;">
-            <img src="Images\Milestone 1 - Diamond Model 15.png" alt="Diamond Models" style="width:100%; max-width:1000px; height:auto;">
-        </div>
-        <div class="image-counter" id="imageCounter">1/15</div> <!-- Placeholder for the indicator -->
-        <button class="prev" onclick="changeSlide(-1)">❮</button>
-        <button class="next" onclick="changeSlide(1)">❯</button>
-    </div>
+        <section>
+            <h3>NIST NVD</h3>
+            <div class="x3-grid-container">
+                <div class="grid-content">
+                    <p><b>Text Mining</b></p>
+                    <p>Using descriptions from the NIST NVD data set, we utilized regular expressions (regex) to accurately identify and extract specific keywords associated to the healthcare and hospital industry. We filtered our NVD data for the top healthcare keywords in the description.</p>
+                    <p>We also searched our data set for top vulnerability keywords such as “exploit” and “denial-of-service”, amongst others, to determine how many vulnerabilities were associated to cyber-related incidents.</p>
+                </div>
+                <div class="grid-content">
+                    <p><b>Event Correlation - 1</b></p>
+                    <p>We first split the population of NVD data into two subsets. One set containing 100 keywords associated to healthcare/hospitals in the description of the vulnerability and the other without these keywords (refer to text mining slides for evaluation of these keywords).</p>
+                    <p>We reviewed these data subsets to determine if there was a correlation between the severity of the vulnerabilities detected and the association of healthcare keywords in the description of the vulnerability.</p>
+                </div>
+                <div class="grid-content">
+                    <p><b>Event Correlation - 2</b></p>
+                    <p>For our second NVD event correlation analysis, we filtered the population for specific hospital keywords, such as popular EHR systems and hospital devices (see text mining slide for further details).</p>
+                    <p>Given this data, we analyzed which types of vulnerabilities were most frequently seen in the population of hospital specific data.</p>
+                    <p>We took this correlation a step further to determine the severity associated with these vulnerabilities. This assessment will help in risk assessment procedures to determine which areas are most vulnerable and which have the highest risk associated to them based on the severity.</p>
+                </div>
+            </div>
         </section>
-
-        <section id="Intelligence-Buy-In">
-            <h3>Intelligence Buy-in</h3>
-            <p>Integrating intelligence-driven security solutions can significantly mitigate the risk of data breaches. This segment explores the value of intelligence buy-in for protecting hospitals from cyber threats.</p>
-            <img src="Images\Milestone 1 - Intelligence Buy in 1.png" alt="Intelligence Buy-in" class="clickable-image" onclick="toggleEnlarge(this);">
-            <img src="Images\Milestone 1 - Intelligence Buy in Part 2.png" alt="Intelligence Buy-in 2" class="clickable-image" onclick="toggleEnlarge(this);">
-        </section>
-        <script src="script.js"></script>
     </body>
+
+
     <footer>
         <p>Disclaimer: All content on this site is for educational purposes only.</p>
     </footer>

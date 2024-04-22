@@ -34,18 +34,24 @@
                 <div class="grid-content">
                     <p><b>Text Mining</b></p>
                     <p>Using URLs from the PhishTank data set, we researched the most common keywords associated to the healthcare and hospital industry. We filtered our PhishTank data for the top 100 keywords associated to our industry, looking for any phishing URLs that contained one or more of those keywords.</p>
+                    <p><b>Value of Approach</b></p>
+                    <p>Text mining is a valuable analytical approach for our healthcare industry. Given our primary data sources, PhishTank and NIST NVD, key information related to the healthcare/hospital industry comes from the URLs and the vulnerability description data fields in the form of text. We determined searching for keywords associated to this industry and for common vulnerability words would be a valuable approach of finding relevant information.</p>
                 </div>
                 <div class="grid-content">
                     <p><b>Event Correlation</b></p>
                     <p>We first filtered the PhishTank data for 100 keywords associated to healthcare/hospitals (refer to text mining slide for further evaluation of selected keywords).</p>
                     <p>Next, we took this population of phishing attacks and utilized the geographical information from the GeoIP data source to determine where these attacks occurred.</p>
                     <p>Our analysis was further broken down into specific areas that were targeted the most to gather the most relevant and useful information.</p>
+                    <p><b>Value of Approach</b></p>
+                    <p>Event correlation is a valuable analytical approach for our healthcare industry. Using our data sources, we found filtering the data to healthcare specific keywords removed the noise and left us with relevant information to further analyze and aggregate.</p>
                 </div>
                 <div class="grid-content">
                     <p><b>Machine Learning</b></p>
                     <p>We first took the Phishtank dataset and joined it with a group of generated “safe” URLs.</p>
                     <p>We added a binary “phish” label to the table (0/1), and derived new numerical fields from the URLs, such as length, number of digits/special characters, top level domain, number of subdomains, and entropy of the url.</p>
                     <p>Finally, we used these new fields, with “phish” as the target, to create a decision tree classifier model for predicting whether a URL is phishing-related or not.</p>
+                    <p><b>Value of approach</b></p>
+                    <p>Machine learning is a valuable approach for taking the healthcare and hospital data we’ve collected and building that into a tool that could help detect potential threats by understanding patterns and trends in historical data.</p>
                 </div>
             </div>
         </section>
@@ -57,17 +63,23 @@
                     <p><b>Text Mining</b></p>
                     <p>Using descriptions from the NIST NVD data set, we utilized regular expressions (regex) to accurately identify and extract specific keywords associated to the healthcare and hospital industry. We filtered our NVD data for the top healthcare keywords in the description.</p>
                     <p>We also searched our data set for top vulnerability keywords such as “exploit” and “denial-of-service”, amongst others, to determine how many vulnerabilities were associated to cyber-related incidents.</p>
+                    <p><b>Value of Approach</b></p>
+                    <p>Text mining is a valuable analytical approach for our healthcare industry. Given our primary data sources, PhishTank and NIST NVD, key information related to the healthcare/hospital industry comes from the URLs and the vulnerability description data fields in the form of text. We determined searching for keywords associated to this industry and for common vulnerability words would be a valuable approach of finding relevant information.</p>
                 </div>
                 <div class="grid-content">
                     <p><b>Event Correlation - 1</b></p>
                     <p>We first split the population of NVD data into two subsets. One set containing 100 keywords associated to healthcare/hospitals in the description of the vulnerability and the other without these keywords (refer to text mining slides for evaluation of these keywords).</p>
                     <p>We reviewed these data subsets to determine if there was a correlation between the severity of the vulnerabilities detected and the association of healthcare keywords in the description of the vulnerability.</p>
+                    <p><b>Value of Approach</b></p>
+                    <p>Event correlation is a valuable analytical approach for our healthcare industry. Using our data sources, we found filtering the data to healthcare specific keywords removed the noise and left us with relevant information to further analyze and aggregate.</p>
                 </div>
                 <div class="grid-content">
                     <p><b>Event Correlation - 2</b></p>
                     <p>For our second NVD event correlation analysis, we filtered the population for specific hospital keywords, such as popular EHR systems and hospital devices (see text mining slide for further details).</p>
                     <p>Given this data, we analyzed which types of vulnerabilities were most frequently seen in the population of hospital specific data.</p>
                     <p>We took this correlation a step further to determine the severity associated with these vulnerabilities. This assessment will help in risk assessment procedures to determine which areas are most vulnerable and which have the highest risk associated to them based on the severity.</p>
+                    <p><b>Value of Approach</b></p>
+                    <p>Event correlation is a valuable analytical approach for our healthcare industry. Using our data sources, we found filtering the data to healthcare specific keywords removed the noise and left us with relevant information to further analyze and aggregate.</p>
                 </div>
             </div>
         </section>

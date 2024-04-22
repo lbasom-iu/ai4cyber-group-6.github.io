@@ -28,38 +28,26 @@
             </p>
         </section>
 
-        <section id="Critical-Asset-Identification">
-            <h3>Critical Asset Identification</h3>
-            <p>Identifying critical assets is the first step in threat modeling. It involves recognizing which systems, data, and resources are vital to hospital operations and patient care.</p>
-            <img src="Images\phishtank-vis-1.png" alt="Critical Asset Identification" style="width:100%; max-width:800px; height:auto;">
-            <img src="Images\nist-vis-1.png" alt="Critical Asset Identification" style="width:100%; max-width:800px; height:auto;">
-            <img src="Images\Milestone 1 - Ramificaiton of Breached Assets.png" alt="Critical Asset Identification" style="width:100%; max-width:800px; height:auto;">
+        <section>
+            <h3>PhishTank</h3>
+            <div class="grid-content">
+                <h4>Healthcare Phishing Incidents by State</h4>
+                <img src="Images\phishtank-vis-1.png" alt="PhishTank Vis 1" style="width:100%; max-width:auto; height:auto; margin: auto;">
+                <p><b>Description: </b>This visualization shows a filled map chart of the United States, where color represents the count of healthcare-related PhishTank phishing URLs per state. Red represents the highest count, while blue is lowest. States that are gray were not represented in the healthcare-related subset of Phishtank phishing URLs.</p>
+                <p><b>Key Insights: </b>The U.S. has the most phishing attacks related to the healthcare industry. New York has the highest number of incidents.</p>
+            </div>
         </section>
 
-            <!-- Diamond Models Section with Carousel -->
-    <section id="Diamond-Models">
-        <h3>Diamond Models</h3>
-        <p>Using the Diamond Model of Intrusion Analysis, we can dissect and understand the anatomy of cyberattacks targeting hospitals. This section provides an overview of several key diamond models.</p>
-        
-        <div class="carousel" id="diamondModelCarousel">
-            <div class="carousel-images">
-            <img src="Images\phishtank-vis-1.png" alt="PhishTank Vis 1" style="width:100%; max-width:1000px; height:auto;">
-            <img src="Images\Milestone 1 - Diamond Model 6.png" alt="Diamond Models" style="width:100%; max-width:1000px; height:auto;">
-            <img src="Images\Milestone 1 - Diamond Model 15.png" alt="Diamond Models" style="width:100%; max-width:1000px; height:auto;">
-        </div>
-        <div class="image-counter" id="imageCounter">1/15</div> <!-- Placeholder for the indicator -->
-        <button class="prev" onclick="changeSlide(-1)">❮</button>
-        <button class="next" onclick="changeSlide(1)">❯</button>
-    </div>
+        <section>
+            <h3>NIST NVD</h3>
+            <div class="grid-content">
+                <h4>Vulnerability Breakdown by Healthcare Keyword</h4>
+                <img src="Images\nist-vis-1.png" alt="NIST NVD Vis 1" style="width:100%; max-width:auto; height:auto; margin: auto;">
+                <p><b>Description: </b>This visualization shows a stacked bar chart with relationships between the top 5 vulnerabilities in the NIST NVD data set and the most common healthcare-related keywords in the descriptions of the data.</p>
+                <p><b>Key Insights: </b>The healthcare industry is most targeted by these 5 vulnerabilities (expoit, DoS, cross-site scripting, buffer overflow, and man-in-the-middle). These are the top keywords associated with the top vulnerabilities (medic, health information, surgery, ventilator, pharmacy, PII, imaging, implant, treatment, HIPAA).</p>
+            </div>
         </section>
 
-        <section id="Intelligence-Buy-In">
-            <h3>Intelligence Buy-in</h3>
-            <p>Integrating intelligence-driven security solutions can significantly mitigate the risk of data breaches. This segment explores the value of intelligence buy-in for protecting hospitals from cyber threats.</p>
-            <img src="Images\Milestone 1 - Intelligence Buy in 1.png" alt="Intelligence Buy-in" class="clickable-image" onclick="toggleEnlarge(this);">
-            <img src="Images\Milestone 1 - Intelligence Buy in Part 2.png" alt="Intelligence Buy-in 2" class="clickable-image" onclick="toggleEnlarge(this);">
-        </section>
-        <script src="script.js"></script>
     </body>
     <footer>
         <p>Disclaimer: All content on this site is for educational purposes only.</p>

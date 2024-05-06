@@ -23,29 +23,52 @@
         </ul>
 
         <section>
-            <h2>Visualizations</h2>
+            <h2>Operational Intelligence</h2>
             <p>
-                This section highlights several visualizations that support the analytical approaches used on the NIST NVD and PhishTank datasets.
+                This section highlights several visualizations, insights and operational intelligence that follow analysis of the NIST NVD and PhishTank datasets, along with future direction that the AI4Cyber platform could follow.
             </p>
         </section>
 
         <section>
             <h3>PhishTank</h3>
             <div class="grid-content">
-                <h4>Healthcare Phishing Incidents by State</h4>
-                <img src="Images\phishtank-vis-1.png" alt="PhishTank Vis 1" style="width:100%; max-width:auto; height:auto; margin: auto;">
-                <p><b>Description: </b>This visualization shows a filled map chart of the United States, where color represents the count of healthcare-related PhishTank phishing URLs per state. Red represents the highest count, while blue is lowest. States that are gray were not represented in the healthcare-related subset of Phishtank phishing URLs.</p>
-                <p><b>Key Insights: </b>The U.S. has the most phishing attacks related to the healthcare industry. New York has the highest number of incidents.</p>
+                <h4>Healthcare Phishing Incidents Over Time</h4>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 10px;">
+                    <img src="Images\m4-phishing-2017.png" alt="PhishTank Vis 1" style="width:100%; max-width:auto; height:auto; margin: auto;">
+                    <img src="Images\m4-phishing-2023.png" alt="PhishTank Vis 2" style="width:100%; max-width:auto; height:auto; margin: auto;">
+                </div>
+                <p><b>Description: </b>These visualizations show a geographical filled map representation of healhcare-related phishing attacks per year, specifically comparing 2017 to 2023 in the United States.</p>
+                <p><b>Key Insights: </b>There was a rise of phishing urls containing healthcare keywords. Our data showed one state in 2017, and thirteen in 2023. The healthcare keywords include vendors exclusive to Hospitals and Healthcare, diagnoses and Hospital departments.</p>
+                <p><b>Operational Intelligence: </b>Hospital  IT security departments could use this information to launch phishing simulation campaigns with tools like proofpoint. Automatically sending emails that are suspicious (have a set of characteristics that are deemed to be “phishing”) to a spam folder to avoid employees clicking into them. Data could be disseminated within organizations that communicate health care security to hospitals, such as CISA. Mandatory new-hire training should be required for all healthcare/hospital employees  and annual trainings moving forward to avoid falling victim to these attacks.</p>
+                <p><b>Future AI4Cyber Direction: </b>For future iterations of our AI4Cyber process, we could explore the origin of where these phishing attacks are coming from to help prevent them from entering our IT environments.</p>
+            </div>
+            <div style="margin-top: 20px;"></div>
+            <div class="grid-content">
+                <h4>Healthcare Phishing Incidents Adjusted for Hospital Count</h4>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 10px;">
+                    <img src="Images\m4-phishing-hospital-attacks-per-state.png" alt="PhishTank Vis 3" style="width:100%; max-width:auto; height:auto; margin: auto;">
+                    <div>
+                        <p><b>Description: </b>This visualization shows the distribution of healthcare-related phishing attacks in the United States, adjusting for the number of hospitals per state (total phishing attacks per hospital), on a log scale (for better comparison between lower-ratio states).</p>
+                        <p><b>Key Insights: </b>Even when adjusted for hospital count per state, New York and Virginia remain at the top of the list for healthcare-related phishing attacks. Texas has the highest count of hospitals, but a relatively low number of phishing attacks, keeping it low on the list when this is accounted for.</p>
+                        <p><b>Operational Intelligence: </b>We intend for hospitals and healthcare organizations to prioritize or evaluate phishing defense mechanisms and employee training based on "risk factor" in the state they're in (higher phishing/hospital rate, more focus on preventing phishing attacks). This could include automatically sending emails that are suspicious (have a set of characteristics that are deemed to be “phishing”) to a spam folder to avoid employees clicking into them. We intend to disseminate intelligence through reporting to the healthcare industry at large. This could include yearly or quarterly report of healthcare phishing attacks in the U.S. We should regularly evaluate phishing data and demographics of the data to assess risk of own hospital.</p>
+                        <p><b>Future AI4Cyber Direction: </b>We could use this information to create further AI4Cyber value by implementing more robust phishing screening tools, and match targets of phishes to products or services owned by hospital to further understand what might be attacked. We could also create weekly or monthly report to highlight changing trends and new phishing attack patterns or targets in the healthcare industry, with the option for hospitals to provide feedback and add data to the system.</p>
+                    </div>
+                </div>
             </div>
         </section>
 
         <section>
             <h3>NIST NVD</h3>
             <div class="grid-content">
-                <h4>Vulnerability Breakdown by Healthcare Keyword</h4>
-                <img src="Images\nist-vis-1.png" alt="NIST NVD Vis 1" style="width:100%; max-width:auto; height:auto; margin: auto;">
-                <p><b>Description: </b>This visualization shows a stacked bar chart with relationships between the top 5 vulnerabilities in the NIST NVD data set and the most common healthcare-related keywords in the descriptions of the data.</p>
-                <p><b>Key Insights: </b>The healthcare industry is most targeted by these 5 vulnerabilities (expoit, DoS, cross-site scripting, buffer overflow, and man-in-the-middle). These are the top keywords associated with the top vulnerabilities (medic, health information, surgery, ventilator, pharmacy, PII, imaging, implant, treatment, HIPAA).</p>
+                <h4>Healthcare Vulnerability Trends Over Time</h4>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 10px;">
+                    <img src="Images\m4-nist-trend.png" alt="NIST NVD Vis 2" style="width:100%; max-width:auto; height:auto; margin: auto;">
+                    <img src="Images\m4-nist-forecast.png" alt="NIST NVD Vis 1" style="width:100%; max-width:auto; height:auto; margin: auto;">
+                </div>
+                <p><b>Description: </b>These visulaizations show the trend of the top healthcare-related vulnerabilities over the past 10 years, by vulnerability type, and the trend of critical exploit vulnerabilities over the past 10 years, with a rolling mean and normal range (to look for anomalies).</p>
+                <p><b>Key Insights: </b>Our top 5 healthcare industry vulnerabilities have steadily increased over time, especially exploit and cross-site scripting surging. Denial of service (DOS) vulnerabilities peaked in 2017 and saw a steep decline to their lowest in 2019. They have been slightly increasing since 2020. Both buffer overflow and man-in-the-middle vulnerabilities had moderate fluctuations over time without a clear long-term trend. Data for 2024 only captures entries up to April, which does not represent the full year, resulting in a decreasing trend. Expanding upon our exploit vulnerabilities, our analysis targeted the trends of this vulnerability to determine any significant deviations from historical patterns. While our analysis illustrates a significant spike in 2023 exploit vulnerabilities, our findings suggest that the spike fell within predictable variability bounds. According to Harvard Business Review, increased digital transformation and remote work have led to a surge in exploitable vulnerabilities in 2023, highlighting the need for enhanced cybersecurity measures in response to advanced attack techniques.</p>
+                <p><b>Operational Intelligence: </b>We could invest in both intrusion protection and detection systems to help prevent and detect exploits/other vulnerabilities. Dashboards will help continuous monitoring e.g. red flashing light, beeping noise, etc. to alert security if this type of intrusion is taking place on their EHR or other critical system. IT employees need to have proper training on the importance of cybersecurity and how to  recognize potential threats. IT employees also need to have updated information as trends change and as new vulnerabilities start  to attack their healthcare/hospital environments. Dissemination could take place through security briefings, emails, or other internal communication tools.</p>
+                <p><b>Future AI4Cyber Direction: </b>For future iterations of this process, we could further explore where these exploits are taking place, including location and if certain hospitals are more targeted than others.</p>
             </div>
         </section>
 
